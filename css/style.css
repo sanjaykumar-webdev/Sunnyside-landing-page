@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+:root {
+  --Softred: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Darkcyan: hsl(167, 40%, 24%);
+  --Darkblue: hsl(198, 62%, 26%);
+  --Darkcyan: hsl(168, 34%, 41%);
+  --Verydarkblue: hsl(212, 27%, 19%);
+  --Verydarkgrayishblue: hsl(213, 9%, 39%);
+  --grayishblue: hsl(232, 10%, 55%);
+  --Grayishblue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url(/img/desktop/image-header.jpg);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.banner .header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.banner .header .nav {
+  color: white;
+  font-size: 1.28rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.banner .header .nav span {
+  margin-right: 2.5rem;
+}
+.banner .header .nav .contact {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  padding: 0.8rem 1.7rem;
+  border-radius: 1.4rem;
+}
+.banner .header .nav .contact:hover {
+  transition: 0.3s ease 0;
+  background-color: transparent whitesmoke;
+  opacity: 0.2;
+}
+.banner .home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 7.5rem;
+}
+.banner .home .text {
+  font-size: 3rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.banner .home .arrow {
+  margin-top: 2rem;
+}

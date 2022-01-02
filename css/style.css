@@ -22,9 +22,10 @@
   text-transform: capitalize;
   text-decoration: none;
   list-style-type: none;
+  font-family: "Barlow", serif;
 }
 html {
-  font-size: 65.5%;
+  font-size: 62.5%;
 }
 /* home page */
 .banner {
@@ -95,6 +96,22 @@ html {
 }
 .about .textcontainer {
   width: 50%;
+  line-height: 1.5rem;
+}
+
+.about .textcontainer h1,
+h3 {
+  margin: 1.5rem 0;
+}
+.about .txt1 {
+  border-bottom: 4px solid var(--Yellow);
+  width: 30%;
+  border-radius: 01.5rem;
+}
+.about .txt2 {
+  border-bottom: 4px solid var(--Softred);
+  width: 30%;
+  border-radius: 01.5rem;
 }
 .left,
 .right {
@@ -102,4 +119,65 @@ html {
 }
 .left {
   padding: 10rem 8rem;
+}
+/* service page */
+.services {
+  height: 30rem;
+  display: flex;
+}
+.services .box1 {
+  background-image: url(/img/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  width: 100%;
+}
+.services .box2 {
+  background-image: url(/img/desktop/image-photography.jpg);
+  background-size: cover;
+  width: 100%;
+}
+.services .boxcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding-top: 12rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  line-height: 1.5rem;
+}
+.services h2 {
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+}
+/* testimonials page */
+.testimonials {
+  text-align: center;
+  background-color: var(--White);
+}
+.testimonials .testimonialscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.testimonials .testimonialscontainer .clients {
+  width: 20rem;
+  line-height: 1.5rem;
+  margin: 0 1.5rem;
+}
+.testimonials .testimonialscontainer .clients img {
+  border-radius: 50%;
+  height: 5rem;
+  margin-bottom: 3rem;
+}
+.testimonials .testimonialscontainer .clients p {
+  margin-bottom: 3rem;
+}
+.testimonials .testimonialscontainer .clients h2 {
+  margin-bottom: 0.5rem;
+}
+.testimonials .heading {
+  margin-top: 10rem;
 }
